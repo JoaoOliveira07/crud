@@ -1,7 +1,5 @@
 package crud;
 
-import com.jdbc.FabricaConexao;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -135,7 +133,7 @@ public class OperacoesProdutos {
     }
 
     public void consultar() throws SQLException {
-        Connection connection = FabricaConexao.getConexao();
+        Connection connection = ConectorComBanco.getConexao();
         String sql = "select *  from produtos";
 
         Statement stmt = connection.createStatement();
