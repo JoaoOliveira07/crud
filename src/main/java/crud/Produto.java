@@ -54,4 +54,5 @@ public class Produto {
     public void setCodigoDoProduto(int codigoDoProduto) {
         this.codigoDoProduto = codigoDoProduto;
     }
+
 }
