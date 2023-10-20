@@ -8,4 +8,3 @@ create table produtos(
 	valorDeVenda decimal(5,2) not null,
 	quantidadeDeEstoque int not null
 );
-asasasa
